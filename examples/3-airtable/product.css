@@ -13,7 +13,7 @@
   width: 100%;
   display: block;
   object-fit: cover;
-  border-radius: var(--radius);
+  border-radius: 0.5rem;
 }
 .price {
   color: var(--clr-primary-5);
