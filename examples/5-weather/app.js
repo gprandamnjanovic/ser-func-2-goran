@@ -31,9 +31,7 @@ async function getWeatherData(city) {
     <p>min temp : ${min}&#8451</p>
     <p>max temp : ${max}&#8451</p>
     <p>feels like : ${feels_like}&#8451</p>
-    </article>
-    
-    `;
+    </article>`;
   } catch (error) {
     // console.log(error.response);
     alert.style.display = 'block';
