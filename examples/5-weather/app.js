@@ -24,8 +24,7 @@ async function getWeatherData(city) {
     const { country } = data.sys;
     const { temp_max: max, temp_min: min, feels_like } = data.main;
     const { description } = data.weather[0];
-    result.innerHTML = `
-    <article class="card">
+    result.innerHTML = `<article class="card">
     <h3>${name},${country}</h3>
     <p>${description}</p>
     <p>min temp : ${min}&#8451</p>
